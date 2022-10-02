@@ -1,286 +1,332 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--====== Title ======-->
     <title>Pragati Bhandari - Portfolio</title>
 
     <!--====== Favicon Icon ======-->
-    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.png"
+      type="image/png"
+    />
 
     <!--====== Google fonts ======-->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" 
-    rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
+      rel="stylesheet"
+    />
 
     <!--====== Font-awesome css ======-->
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
-    rel="stylesheet">
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
 
     <!--====== Custom css ======-->
-    <link rel = "stylesheet" href = "./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
 
-    <script src="https://smtpjs.com/v3/smtp.js">
-    </script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+  </head>
 
-</head>
-
-<body>
-
-<!--START OF HEADER SECTION-->
+  <body>
+    <!--START OF HEADER SECTION-->
 
     <header>
-        <div class="navigation topnav" id="myTopnav">
-            <nav>
+      <div class="cube"></div>
+      <div class="navigation topnav" id="myTopnav">
+        <nav>
+          <a class="active" href="#about1"
+            ><img src="images/Pragatipic.png" height="40px" weidth="10px"
+          /></a>
 
-            <a class="active"  href="#about1">Home</a>
-            <a href ="images/pragati.bhandari-cv.pdf" target="_blank">CV</a>
-            <a href="#skills1">Skills</a>
-            <a href="#project1">Projects</a>
-            <a href="#contact1">Contact</a>
+          <a href="images/pragati.bhandari-cv.pdf" target="_blank">CV</a>
+          <a href="#skills1">Skills</a>
+          <a href="#project1">Projects</a>
+          <a href="#contact1">Contact</a>
+          <a href="#about1">Home</a>
 
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </nav>
+      </div>
 
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <i class="fa fa-bars"></i>
-            </a>
-            </nav>
+      <a name="about1"> </a>
+      <div class="spacer1"></div>
+
+      <div class="container">
+        <div class="container_content flex items-center">
+          <div class="left">
+            <h2>Hello I'm</h2>
+            <h1>Pragati <span>Bhandari,</span></h1>
+
+            <p>
+              an ambitious Full-Stack Developer. As a recent graduate with a
+              Bachelor's degree in Information Technology, I have participated
+              in numerous development projects while collaborating with other
+              developers. In addition, to focusing my career to be an expert in
+              programming, I am also interested in getting into Cloud Computing.
+              For the time being, I am more proficient in front-end development
+              with skills in accessibility, react.js, Javascript, Material-UI,
+              SCSS, etc. while I am also good at Express.js, Node.js, Mongo DB,
+              and MySQL. In my work, I strive to fuse stunning design and
+              functional code.
+            </p>
+
+            <div class="btn-scale">
+              <form action="images/pragati.bhandari-cv.pdf" target="_blank">
+                <div class="but-flex">
+                  <button class="but">Resume</button>
+                  <a class="but" href="#project1">Projects</a>
+                </div>
+              </form>
+            </div>
           </div>
 
-        <a name="about1"> </a>
-        <div class="spacer1">
-            &nbsp;
-        </div> 
-        
-        
-        <div class="container">
-            <div class="container_content flex items-center">
-                <div class ="left">
-                    <h2> Hello I'm </h2>
-                    <h1>Pragati <span>Bhandari,</span></h1>              
-
-                    <p> 
-                      an ambitious Full-Stack Developer. As a recent graduate with a Bachelor's degree in Information Technology, I have participated in numerous development projects while collaborating with other developers. In addition, to focusing my career to be an expert in programming, I am also interested in getting into Cloud Computing. For the time being, I am more proficient in front-end development with skills in accessibility, react.js, Javascript, Material-UI, SCSS, etc. while I am also good at Express.js, Node.js, Mongo DB, and MySQL. In my work, I strive to fuse stunning design and functional code. 
-                    </p>
-
-                    <div class="btn-scale">
-                        <form action="images/pragati.bhandari-cv.pdf" target="_blank">
-                            <button class="btn btn-primary">Go to my CV</button>
-                        </form>
-                    </div> 
-                </div>
-
-                <div class="right">
-                    <img src="./images/person.jpg "height="100" width="100" >
-                 </div>
-            </div>
+          <div class="right">
+            <img src="./images/profile-pic5.png " height="100" width="100" />
+          </div>
         </div>
+      </div>
     </header>
 
-    
-<!--END OF HEADER SECTION-->
+    <!--END OF HEADER SECTION-->
 
-<!--START OF SKILLS SECTION-->
-
+    <!--START OF SKILLS SECTION-->
 
     <a name="skills1"> </a>
-        <div class="spacer1">
-            &nbsp;
-        </div> 
+    <div class="spacer1">&nbsp;</div>
 
     <div class="wrapper">
-        <div class="bar-wrapper">
-            <h1>My Skills</h1>
-            <div class="progress">
-                <li class ="progress-done html5">HTML5 90%</li>
-            </div>
-            <div class="progress">  
-                <li class ="progress-done css3">Css3 80%</li>
-            </div>
-            <div class="progress">  
-                <li class ="progress-done javascript">Javascript 60%</li>
-            </div>
-            <div class="progress">  
-                <li class ="progress-done bootstrap">Bootstrap 60%</li>   
-             </div>
-            <div class="progress">     
-                <li class ="progress-done wordpress">Wordpress 70%</li>
-            </div>
-            <div class="progress">  
-                <li class ="progress-done react">ReactJS 60%</li>
-            </div>
-            <div class="progress"> 
-                <li class ="progress-done git">Github 70%</li>
-            </div>
+      <div class="bar-wrapper">
+        <h1>My Skills</h1>
+        <div class="progress">
+          <li class="progress-done html5">HTML5 90%</li>
         </div>
+        <div class="progress">
+          <li class="progress-done css3">Css3 80%</li>
+        </div>
+        <div class="progress">
+          <li class="progress-done javascript">Javascript 60%</li>
+        </div>
+        <div class="progress">
+          <li class="progress-done bootstrap">Bootstrap 60%</li>
+        </div>
+        <div class="progress">
+          <li class="progress-done wordpress">Wordpress 70%</li>
+        </div>
+        <div class="progress">
+          <li class="progress-done react">ReactJS 60%</li>
+        </div>
+        <div class="progress">
+          <li class="progress-done git">Github 70%</li>
+        </div>
+      </div>
     </div>
 
+    <!--END OF THE SKILLS SECTION-->
 
-<!--END OF THE SKILLS SECTION-->
+    <!--START OF THE PROJECTS SECTION-->
 
-<!--START OF THE PROJECTS SECTION-->
+    <a name="project1"> </a>
+    <div class="spacer1">&nbsp;</div>
 
-<a name="project1"> </a>
-        <div class="spacer1">
-            &nbsp;
-        </div> 
+    <section id="projects" class="projects-section">
+      <h2 class="projects-section-header">My Recent Projects</h2>
 
-<section id="projects" class="projects-section">
-    <h2 class="projects-section-header">My Recent Projects</h2>
-  
-    <div class="projects-grid">
-      <a href="https://pragatibhandari.github.io/CoinToss/"
-        target="_blank"
-        class="project project-tile"
-      >
-        <img
-          class="project-image"
-          src="./images/cointoss.png"
-          alt="CoinToss"
-        />
-        <p class="project-title">
-          CoinToss Application <br>
-        <span class="project-description">Users are able toss the coin to get heads or tails generated randomly similar to the physical cointossing process</span></p>
-      </a>
+      <div class="projects-grid">
+        <a
+          href="https://pragatibhandari.github.io/CoinToss/"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="./images/cointoss.png"
+            alt="CoinToss"
+          />
+          <p class="project-title">
+            CoinToss Application <br />
+            <span class="project-description"
+              >Users are able toss the coin to get heads or tails generated
+              randomly similar to the physical cointossing process</span
+            >
+          </p>
+        </a>
+        <a
+          href="https://pragatibhandari.github.io/Calculator/"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="./images/calculator.png"
+            alt="Calculator"
+          />
+          <p class="project-title">
+            Calculator Application <br />
+            <span class="project-description"
+              >JavaScript calculator that performs Addition, Substraction,
+              Multiplication and Division</span
+            >
+          </p>
+        </a>
+        <a
+          href="https://6004a42ab454fca50b5859ef--keen-colden-ad95ad.netlify.app/"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="images/contacts.png"
+            alt="personnel"
+          />
+          <p class="project-title">
+            Personnel / Contact Page <br />
+            <span class="project-description"
+              >React App built by fetching users data from JSON placeholder
+              API</span
+            >
+          </p>
+        </a>
+        <a
+          href="https://pragatibhandari.github.io/HangMan/"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img class="project-image" src="images/hangman.png" alt="Hangman" />
+          <p class="project-title">
+            Hangman <br />
+            <span class="project-description"
+              >Word game built with JavaScript. A random word puzzle will be
+              generated each time to play</span
+            >
+          </p>
+        </a>
+        <a
+          href="https://pragatibhandari.github.io/ShoppingListApp/"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="images/shoppinglist.png"
+            alt="ShoppingListApp"
+          />
+          <p class="project-title">
+            ShoppingList Application<br />
+            <span class="project-description"
+              >JavaScript Application where users can add items, delete items
+              and find the number of remaining items to purchase.</span
+            >
+          </p>
+        </a>
+        <a href="#" target="_blank" class="project project-tile">
+          <img
+            class="project-image"
+            src="images/quoteGenerator.png"
+            alt="project"
+          />
+          <p class="project-title">
+            Random Quote Generator<br />
+            <span class="project-description"
+              >(App in building process) React app that displays random quotes
+              by fetching data from JSON placeholder API</span
+            >
+          </p>
+        </a>
+      </div>
+
       <a
-        href="https://pragatibhandari.github.io/Calculator/"
+        href="https://github.com/pragatibhandari"
+        class="btn btn-primary"
         target="_blank"
-        class="project project-tile"
+        >Projects in Github</a
       >
-        <img
-          class="project-image"
-          src="./images/calculator.png"
-          alt="Calculator"
-        />
-        <p class="project-title">
-          Calculator Application <br>
-          <span class="project-description">JavaScript calculator that performs Addition, Substraction, Multiplication and Division</span></p>
-      </a>
-      <a
-        href="https://6004a42ab454fca50b5859ef--keen-colden-ad95ad.netlify.app/"
-        target="_blank"
-        class="project project-tile"
-      >
-        <img
-          class="project-image"
-          src="images/contacts.png"
-          alt="personnel"
-        />
-        <p class="project-title">
-          Personnel / Contact Page <br>
-          <span class="project-description">React App built by fetching users data from JSON placeholder API</span></p>
-      </a>
-      <a
-        href="https://pragatibhandari.github.io/HangMan/"
-        target="_blank"
-        class="project project-tile"
-      >
-        <img
-          class="project-image"
-          src="images/hangman.png"
-          alt="Hangman"
-        />
-        <p class="project-title">
-          Hangman <br>
-          <span class="project-description">Word game built with JavaScript. A random word puzzle will be generated each time to play</span></p>
-      </a>
-      <a
-        href="https://pragatibhandari.github.io/ShoppingListApp/"
-        target="_blank"
-        class="project project-tile"
-      >
-        <img
-          class="project-image"
-          src="images/shoppinglist.png"
-          alt="ShoppingListApp"
-        />
-        <p class="project-title">
-          ShoppingList Application<br>
-          <span class="project-description">JavaScript Application where users can add items, delete items and find the number of remaining items to purchase.</span></p>
-      </a>
-      <a
-        href="#"
-        target="_blank"
-        class="project project-tile"
-      >
-        <img
-          class="project-image"
-          src="images/quoteGenerator.png"
-          alt="project"
-        />
-        <p class="project-title">
-          Random Quote Generator<br>
-          <span class="project-description">(App in building process) React app that displays random quotes by fetching data from JSON placeholder API</span></p>
-      </a>
-    </div>
-  
-    <a
-      href="https://github.com/pragatibhandari"
-      class="btn btn-primary"
-      target="_blank">Projects in Github</a>
-  </section>
-  
-  <!-- END PROJECTS SECTION -->
+    </section>
 
-  <!--START OF THE CONTACT SECTION-->  
-    
-  
- <a name="contact1"> </a>
-        <div class="spacer3">
-            &nbsp;
-        </div> 
+    <!-- END PROJECTS SECTION -->
 
+    <!--START OF THE CONTACT SECTION-->
 
+    <a name="contact1"> </a>
+    <div class="spacer3">&nbsp;</div>
 
     <div class="contact-container">
-        <div class= "get-in-touch">
-            <h1>Get In Touch</h1>
-            <div class="email flex">
-                <img src="./images/email-icon.png" width="40px" height="40px">
-                <p>bhandariprag7@gmail.com</p>
-            </div>
-            <div class="flex location">
-                 <img src = "./images/location-icon.png" width="40px" height="40px">
-                 <p>Helsinki, Finland</p>
-            </div>
-            <div class="social-icons">
-                <ul>
-                    <li><a href="https://github.com/pragatibhandari" target = "_blank" ><i class="fa fa-github"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/pragati-bhandari-5ba976bb/" target = "_blank"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
-            </div>
+      <div class="get-in-touch">
+        <h1>Get In Touch</h1>
+        <div class="email flex">
+          <img src="./images/email-icon.png" width="40px" height="40px" />
+          <p>bhandariprag9@gmail.com</p>
         </div>
-        <div class="contact">
-            <form id = "contact-form">
-                <label for="fname"> First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your Firstname">
-                <label for="lname"> Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your Lastname">
-                <label for="about"> About</label>
-                <select id="about" name="about" placeholder="Your Lastname">
-                    <option value="sugessition">I want to give a suggestion</option>
-                    <option value="sugessition">Let's do a project</option>
-                    <option value="sugessition">I want to know more about you</option>
-                    <option value="sugessition">Book an appointment</option>
-                    <option value="sugessition">Other</option>
-                </select>
-                <label for="message"> Message</label>
-                <textarea id="message" name="message" placeholder="Your Message"style="height: 150px"></textarea>
-                <input onclick="sendContact()" type="submit" value="Send Message">
-            </form>
+        <div class="flex location">
+          <img src="./images/location-icon.png" width="40px" height="40px" />
+          <p>Helsinki, Finland</p>
         </div>
+        <div class="social-icons">
+          <ul>
+            <li>
+              <a href="https://github.com/pragatibhandari" target="_blank"
+                ><i class="fa fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/pragati-bhandari-5ba976bb/"
+                target="_blank"
+                ><i class="fa fa-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="contact">
+        <form id="contact-form">
+          <label for="fname"> First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your Firstname"
+          />
+          <label for="lname"> Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your Lastname"
+          />
+          <label for="about"> About</label>
+          <select id="about" name="about" placeholder="Your Lastname">
+            <option value="sugessition">I want to give a suggestion</option>
+            <option value="sugessition">Let's do a project</option>
+            <option value="sugessition">I want to know more about you</option>
+            <option value="sugessition">Book an appointment</option>
+            <option value="sugessition">Other</option>
+          </select>
+          <label for="message"> Message</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Your Message"
+            style="height: 150px"
+          ></textarea>
+          <input onclick="sendContact()" type="submit" value="Send Message" />
+        </form>
+      </div>
     </div>
 
-
-<!--END OF THE CONTACT SECTION-->
-<!--START OF THE FOOTER SECTION-->
-
+    <!--END OF THE CONTACT SECTION-->
+    <!--START OF THE FOOTER SECTION-->
 
     <div class="footer">
-        <p>@Pragati Bhandari 2020. All rights reserved.</p>
+      <p>@Pragati Bhandari 2020. All rights reserved.</p>
     </div>
 
     <script src="./js/script.js"></script>
-
-</body>
+  </body>
 </html>
