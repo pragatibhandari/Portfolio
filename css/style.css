@@ -1,4 +1,5 @@
 @import "utilities.css";
+@import "{{ site.theme }}";
 :root {
   --primary: #ff6905;
   --secondary: #ffffff;
@@ -80,8 +81,6 @@ nav {
 }
 .topnav a.active {
   float: left;
-}
-.topnav a.active:hover {
 }
 .topnav .icon {
   display: none;

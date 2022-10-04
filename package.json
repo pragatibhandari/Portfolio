@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/pragatibhandari/Portfolio/issues"
   },
-  "homepage": "https://github.com/pragatibhandari/Portfolio#readme"
+  "homepage": "https://github.com/pragatibhandari/Portfolio#readme",
+  "devDependencies": {
+    "netlify-cli": "^12.0.2"
+  }
 }
